@@ -5,9 +5,9 @@ programa
 	{
 		escreva("Uma pessoa que lê 5 minutos por dia, 6 dias por semana, lê no total ", 6*5, " minutos por semana.\n")
 
-		escreva("Considerando que cada mês tem aproximadamente 4 semanas, essa pessoa lê ", (6*5)*4, " minutos por semana.\n")
+		escreva("Considerando que cada mês tem aproximadamente 4 semanas, essa pessoa lê ", (6*5)*4, " minutos por mês.\n")
 
-		escreva("Como um ano possui ao todo 12, meses, essa pessoa lê ", ((6*5)*4)*12, " minutos por ano, ou seja, ", ((((6*5)*4)*12)/60)+(((((6*5)*4)*12)%60)), " horas.\n")
+		escreva("Como um ano possui ao todo 12 meses, essa pessoa lê ", ((6*5)*4)*12, " minutos por ano, ou seja, ", ((((6*5)*4)*12)/60)+(((((6*5)*4)*12)%60)), " horas.\n")
 
 	}
 }
