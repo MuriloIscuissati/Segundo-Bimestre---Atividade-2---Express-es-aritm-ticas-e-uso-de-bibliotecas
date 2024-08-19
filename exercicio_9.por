@@ -4,8 +4,11 @@ programa
 	
 	funcao inicio()
 	{
-		real area, n_latas,  total_tinta
+		real area, n_latas,  total_tinta	
 		inteiro total_latas, n_latas_int
+		//As váriaveis n_latas e n_latas_int são utilizadas para arredondar o número de latas que o cliente deverá comprar.
+		//Exemplo: se o cliente precisar pintar 54 metros quadrados, ele deverá comprar 1 lata, mas caso ele deseje pintar 55 metros quadrados, ele precisará de 2 latas pois, 54 metros qudrados é o limite que se consegue pintar com uma lata de tinta consegue pintar.
+		//As variávies n_latas e n_latas_int são utilizadas nesses casos, para que o programa não arredonde para baixo o número de latas que o cliente deve comprar.
 
 		escreva("Bem-vindo à loja Foz Tintas!")
 		Util.aguarde(2000)
